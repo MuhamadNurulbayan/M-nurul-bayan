@@ -24,17 +24,19 @@ Berdasarkan hasil evaluasi tersebut, program akan menentukan apakah bilangan ter
 ---
 
 
-##  Pseudocode
+## D. Flowchart
 
-```text
-INPUT bilangan
+```mermaid
+flowchart TD
+    A([START]) --> B[/INPUT sudut/]
+    B --> C{Apakah sudut < 90?}
 
-IF bilangan MOD 2 = 0 THEN
-    OUTPUT "Bilangan Genap"
-ELSE
-    OUTPUT "Bilangan Ganjil"
-END IF
+    C -->|Ya| D[/OUTPUT: Sudut lancip/]
+    C -->|Tidak| E[/OUTPUT: Bukan sudut lancip/]
 
+    D --> F([END])
+    E --> F
+```
 
 
 
