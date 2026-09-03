@@ -35,36 +35,19 @@ ELSE
     OUTPUT "Bilangan Ganjil"
 END IF
 
+## D. Flowchart
 
-##  Flowchart
+```mermaid
+flowchart TD
 
-```text
-+---------+
-|  START  |
-+---------+
-     |
-     v
-+------------------+
-| Input Bilangan   |
-+------------------+
-     |
-     v
-+------------------+
-| Bilangan % 2 = 0?|
-+------------------+
-    /        \
-  Ya          Tidak
-  /              \
- v                v
-+----------+  +-----------+
-|  Genap   |  |  Ganjil   |
-+----------+  +-----------+
-      \        /
-       \      /
-        v    v
-     +-------+
-     |  END  |
-     +-------+
+    A([START]) --> B[/INPUT bilangan/]
+    B --> C{Apakah bilangan % 2 == 0?}
+
+    C -->|Ya| D[/OUTPUT: Bilangan Genap/]
+    C -->|Tidak| E[/OUTPUT: Bilangan Ganjil/]
+
+    D --> F([END])
+    E --> F
 ```
 
 
