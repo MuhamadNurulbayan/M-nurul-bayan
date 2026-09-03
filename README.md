@@ -50,7 +50,7 @@ END IF
 
 ##  Flowchart
 
-```merma
+mermaid
 flowchart TD
     A([START]) --> B[/Input bilangan/]
     B --> C{Bilangan % 2 == 0?}
