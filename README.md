@@ -35,19 +35,14 @@ ELSE
     OUTPUT "Bilangan Ganjil"
 END IF
 
-## D. Flowchart
+## Flowchart
 
 ```mermaid
-flowchart TD
-
-    A([START]) --> B[/INPUT bilangan/]
-    B --> C{Apakah bilangan % 2 == 0?}
-
-    C -->|Ya| D[/OUTPUT: Bilangan Genap/]
-    C -->|Tidak| E[/OUTPUT: Bilangan Ganjil/]
-
-    D --> F([END])
+graph TD
+    A([Start]) --> B[/Input Bilangan/]
+    B --> C{Bilangan % 2 == 0?}
+    C -->|Ya| D[Bilangan Genap]
+    C -->|Tidak| E[Bilangan Ganjil]
+    D --> F([End])
     E --> F
-```
-
 
