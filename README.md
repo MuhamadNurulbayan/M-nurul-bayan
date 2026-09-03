@@ -35,7 +35,7 @@ ELSE
     OUTPUT "Bilangan Ganjil"
 END IF
 
-## 📊 Flowchart
+##  Flowchart
 
 ```mermaid
 graph TD
