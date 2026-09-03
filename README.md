@@ -28,13 +28,11 @@ Berdasarkan hasil evaluasi tersebut, program akan menentukan apakah bilangan ter
 
 ```mermaid
 flowchart TD
-    A([START]) --> B[/INPUT sudut/]
-    B --> C{Apakah sudut < 90?}
-
-    C -->|Ya| D[/OUTPUT: Sudut lancip/]
-    C -->|Tidak| E[/OUTPUT: Bukan sudut lancip/]
-
-    D --> F([END])
+    A([Start]) --> B[/Input Bilangan/]
+    B --> C{Bilangan % 2 == 0?}
+    C -->|Ya| D[Bilangan Genap]
+    C -->|Tidak| E[Bilangan Ganjil]
+    D --> F([End])
     E --> F
 ```
 
