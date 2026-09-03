@@ -63,7 +63,7 @@ graph TD
 
 ##  Implementasi Python
 
-Implementasi program dibuat menggunakan bahasa pemrograman Python dengan memanfaatkan operator modulo (`%`) dan percabangan `if-else` untuk menentukan apakah suatu bilangan termasuk bilangan genap atau ganjil.
+
 
 
    
