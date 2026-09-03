@@ -24,4 +24,16 @@ Berdasarkan hasil evaluasi tersebut, program akan menentukan apakah bilangan ter
 ---
 
 
+##  Pseudocode
+
+```text
+INPUT bilangan
+
+IF bilangan MOD 2 = 0 THEN
+    OUTPUT "Bilangan Genap"
+ELSE
+    OUTPUT "Bilangan Ganjil"
+END IF
+
+
 
