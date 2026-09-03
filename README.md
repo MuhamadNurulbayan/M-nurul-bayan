@@ -50,7 +50,7 @@ END IF
 
 ##  Flowchart
 
-```mermaid
+   mermaid
 graph TD
     A[Start] --> B[Input Bilangan]
     B --> C{Bilangan % 2 == 0?}
