@@ -40,13 +40,12 @@ END IF
 
 ```mermaid
 graph TD
-    A[Start] --> B[Input Bilangan]
+    A([Start]) --> B[/Input Bilangan/]
     B --> C{Bilangan % 2 == 0?}
-    C -- Ya --> D[Bilangan Genap]
-    C -- Tidak --> E[Bilangan Ganjil]
-    D --> F[End]
+    C -->|Ya| D[Bilangan Genap]
+    C -->|Tidak| E[Bilangan Ganjil]
+    D --> F([End])
     E --> F
-```
 
 
 
