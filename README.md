@@ -36,16 +36,35 @@ ELSE
 END IF
 
 
-## Flowchart
+##  Flowchart
 
-mermaid
-graph TD
-    A([Start]) --> B[/Input Bilangan/]
-    B --> C{Bilangan % 2 == 0?}
-    C -->|Ya| D[Bilangan Genap]
-    C -->|Tidak| E[Bilangan Ganjil]
-    D --> F([End])
-    E --> F
-
+```text
++---------+
+|  START  |
++---------+
+     |
+     v
++------------------+
+| Input Bilangan   |
++------------------+
+     |
+     v
++------------------+
+| Bilangan % 2 = 0?|
++------------------+
+    /        \
+  Ya          Tidak
+  /              \
+ v                v
++----------+  +-----------+
+|  Genap   |  |  Ganjil   |
++----------+  +-----------+
+      \        /
+       \      /
+        v    v
+     +-------+
+     |  END  |
+     +-------+
+```
 
 
