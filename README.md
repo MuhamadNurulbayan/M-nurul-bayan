@@ -1,4 +1,4 @@
-# muhamad Nurul Bayan_algoritma_Pemograman
+2# muhamad Nurul Bayan_algoritma_Pemograman
 Tugas algoritma pemograman
 
 ##  Menentukan Bilangan Genap dan Ganjil
