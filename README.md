@@ -90,8 +90,12 @@ Bilangan Ganjil
 | 2 | 15 | Bilangan Ganjil | ✅ Berhasil |
 
 ## H. Hasil Pengujian
+<img width="1600" height="900" alt="WhatsApp Image 2026-09-04 at 10 18 14 (2)" src="https://github.com/user-attachments/assets/d1cc4f8c-65b9-446f-9f05-25658a6aaade" />
 
-<img width="1366" height="728" alt="WhatsApp Image 2026-09-03 at 21 59 50" src="https://github.com/user-attachments/assets/cdf29fef-9ffa-486f-be64-69ce34772b0a" />
+
+
+
+
 
 
 
