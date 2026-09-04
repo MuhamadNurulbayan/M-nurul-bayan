@@ -50,31 +50,35 @@ else:
 ```
 
 
-## F. Test Case
+## 🧪 Test Case
 
+| Test Case | Input Bilangan | Kondisi | Hasil yang Diharapkan |
+|------------|---------------|----------|----------------------|
+| 1 | 12 | 12 % 2 = 0 | Bilangan Genap |
+| 2 | 15 | 15 % 2 ≠ 0 | Bilangan Ganjil |
 
+### Hasil Pengujian
 
+**Test Case 1**
 
-angka = int(input("Masukkan sebuah bilangan: "))
+Input:
+```text
+12
+```
 
-if angka % 2 == 0:
-    print(f"{angka} adalah bilangan genap")
-else:
-    print(f"{angka} adalah bilangan ganjil")
+Output:
+```text
+Bilangan Genap
+```
 
+**Test Case 2**
 
+Input:
+```text
+15
+```
 
-
-
-
-
-
-
-
-
-##  Implementasi Python
-
-
-
-
-   
+Output:
+```text
+Bilangan Ganjil
+```
